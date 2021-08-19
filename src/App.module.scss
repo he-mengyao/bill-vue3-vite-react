@@ -1,0 +1,248 @@
+.login {
+    height: 100vh;
+    background-image: linear-gradient(217deg, #6fb9f8, #3daaf85e, #49d3fc1a, #3fd3ff00);
+    padding: 0 20px;
+    .img {
+        height: 5%;
+        width: 100%;
+    }
+    .item {
+        width: 50px;
+        height: 30px;
+    }
+    .click {
+        font-size: 20px;
+    }
+    .line {
+        width: 50px;
+        height: 2px;
+        background-color: #007fff;
+    }
+    .label {
+        height: 20px;
+        width: 20px;
+    }
+    .za-checkbox__inner {
+        background-color: #007fff !important;
+    }
+    .yanzheng {
+        width: 100px;
+        height: 40px;
+        background-color: #e2efda;
+    }
+}
+
+.home {
+    min-height: 100vh;
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        padding: 10px;
+        .span {
+            font-family: DINCondensed-Bold, DINCondensed;
+        }
+    }
+}
+
+.img {
+    height: 15px;
+    width: 15px;
+}
+
+.yinying {
+    width: 78px;
+    height: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 26px;
+}
+
+.btn {
+    width: 102px;
+    height: 42px;
+}
+
+.tianjia {
+    position: fixed;
+    right: 30px;
+    bottom: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+    .bianji {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+.tag {
+    height: 40px;
+    width: 100%;
+}
+
+.tags {
+    height: 20px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagactive {
+    border: 1px solid #007fff;
+    color: #007fff;
+    background-color: #eafbf6;
+}
+
+.warning {
+    border: 1px solid #e09547;
+    color: #e09547;
+    background-color: #faf8f1;
+}
+
+.tagg {
+    width: 40px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.active {
+    color: #007fff;
+    background-color: #d7e5fd;
+}
+
+.warning1 {
+    color: #e09547;
+    background-color: #faf8f1;
+}
+
+.jine {
+    border-bottom: 1px solid #eee;
+}
+
+.card {
+    height: 156px;
+    width: 337px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0.08rem 0.05333rem 0.53333rem 0.26667rem rgb(0, 0, 0, .1);
+    position: relative;
+    top: -40px;
+    left: 18px;
+    padding-left: 15px;
+}
+
+.carditem {
+    border-bottom: 1px solid #eee;
+}
+
+.quit {
+    position: fixed;
+    bottom: 50px;
+    padding: 20px;
+    left: 0;
+    right: 0;
+}
+
+.scroll {
+    overflow-x: auto;
+    .minibox {
+        white-space: nowrap;
+    }
+}
+
+.activeblue {
+    background-color: #007fff;
+    color: #fff;
+}
+
+.bgfff {
+    background-color: #fff;
+}
+
+.bill {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.billhead {
+    height: 40px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.null {
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.green {
+    color: #63ba7d;
+}
+
+.red {
+    color: #eb3223;
+}
+
+.content {
+    overflow: scroll;
+}
+
+.detail {
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 15px 20px;
+}
+
+.total {
+    height: 168px;
+    padding: 20px 0;
+}
+
+.date {
+    width: 96px;
+    height: 28px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.bingtu {
+    width: 100%;
+    height: 300px;
+}
